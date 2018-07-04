@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+
+    <title>Work (almost) From Home</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+
+            <a href="#" class="brand-logo center">Work (almost) from Home</a>
+
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+   
+            <a class="btn btn-primary btn-lg" id="searchBtn" role="button">Start Your Job Search</a>
+
+            <div id="searchDiv">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="title" type="text" class="validate">
+                                <label class="active" for="icon_prefix">Title</label>
+                            
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">place</i>
+                                <input id="address" type="text" class="validate">
+                                <label class="active" for="address">Address</label>
+                        
+                            </div>
+                        </div>
+                        <div>
+                            <a class="btn btn-primary btn-lg" id="goBtn" role="button">Go!</a>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <main class="container">
+        <div class="row">
+            <div id="leftCol" class="col-sm-6">
+                <br>
+                <div id="jobListing">
+                    <h3>Job Listings</h3>
+                    <ul>
+                        <li></li>
+                    
+                    </ul>
+                </div>
+            </div>
+
+            <div id="rightCol" class="col-sm-6">
+                <div id="map"></div>
+                <div id="infowindow-content">
+                    <span id="place-name" class="title"></span>
+                    <br>
+                    <span id="place-id"></span>
+                    <br>
+                    <span id="place-address"></span>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+    <footer class="page-footer"> <h5 class="white-text">Meet Our Development Team</h5>
+        <div class="container">
+                    <p class="grey-text text-lighten-4">Based out of Durham, North Carolina with more than 20,000 job postings in 50 states.</p>
+                   
+                    <div id="devTeam">
+                        <div id="tim" class="circle" href="#!"></div>
+                        <div id="adam" class="circle" href="#!"></div>
+                        <div id="tony" class="circle" href="#!"></div>
+                        <div id="ace" class="circle" href="#!"></div>
+                        <div id="wal" class="circle" href="#!"></div>
+                    </div>
+
+                    <div id="footer-copyright">© 2018 Work (almost) From Home
+                    </div>
+        </div>
+            
+        <div class="footer-socialmedia">
+                <ul id="iconsRow" class="row">
+                    <div>
+                        <a href="#!" class="socialMediaIcons">
+                            <img src="assets/images/fb.png" alt="facebook" id="fbImage">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="socialMediaIcons">
+                            <img src="assets/images/insgrm.png" alt="instgram" id="insgrmImage">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="socialMediaIcons">
+                            <img src="assets/images/lin.png" alt="linkedIn" id="linImage">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="socialMediaIcons">
+                            <img src="assets/images/twtr.png" alt="twiter" id="twtrImage">
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="#!" class="socialMediaIcons">
+                            <img src="assets/images/vimeo.png" alt="vimeo" id="vimeoImage">
+                        </a>
+                    </div>
+                </ul>
+
+        </div>
+       
+        <a href="https://www.ziprecruiter.com/jobs" id="jobs_widget_link">
+            <span>Job Search by</span>
+            <span id="zr_logo_container">
+                <img id="zr_logo" src="https://www.ziprecruiter.com/img/logos/logo-sm-black-304px.png" alt="ZipRecruiter" width="120"
+                />
+            </span>
+        </a>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWLWqEBWNGnd4gZb_4lBMiIY1J-w3FNI4&libraries=places"></script>
+
+<script src="assets/javascript/app.js"></script>
+
+</html>

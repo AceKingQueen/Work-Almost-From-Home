@@ -1,0 +1,155 @@
+#map {
+  width: 400px;
+  height: 500px;
+  box-shadow:2px 2px 10px whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  
+}
+body {
+  background-color: whitesmoke;
+  font-family: 'Martel Sans', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.jumbotron {
+  background-image: url("../images/WFH1.jpg"); 
+  background-position: center top;
+  height: 400px;
+
+}
+
+#searchBtn {
+  margin-bottom: 10px;
+  background-color: #c62828;
+  color: whitesmoke;
+}
+
+#goBtn {
+  position: relative;
+  float: right;
+  clear: both;
+  background-color: green;
+  color: whitesmoke;
+}
+
+main {
+  margin-top: 20%;
+}
+
+nav {
+  background-color: #0d47a1;
+}
+
+
+#leftCol {
+  box-shadow:2px 2px 10px whitesmoke;
+  min-height: 50%;
+}
+
+#map {
+  box-shadow:2px 2px 10px black;
+}
+
+
+li {
+  border:1px solid white;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  box-shadow:2px 2px 10px whitesmoke;
+  background-color: whitesmoke;
+
+}
+tr {
+  margin-left: 10px;
+}
+
+label {
+  padding-top: 3%;
+}
+
+.searchInput {
+  margin-left:5px;
+  margin-bottom: 10px;
+  width:90%;
+}
+
+#searchDiv {
+  border:1px solid black;
+  box-shadow:2px 2px 10px darkgray;
+  display:none;
+  width: 100%;
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+#devTeam {
+  display: flex;
+  flex-direction:row;
+  margin-left: 20%;
+
+}
+.circle {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#tim {
+ background-image: url("../images/tim.png");
+ background-size: cover;
+ box-shadow:2px 2px 10px black;
+}
+
+#adam {
+  background-image: url("../images/adam.png");
+ background-size: cover;
+ box-shadow:2px 2px 10px black;
+ }
+
+ #tony {
+  background-image: url("../images/tony.png");
+ background-size: cover;
+ box-shadow:2px 2px 10px black;
+ }
+
+ #ace {
+  background-image: url("../images/ace.png");
+  background-size: cover;
+  box-shadow:2px 2px 10px black;
+ }
+
+ #wal {
+  background-image: url("../images/wal.png");
+  background-size: cover;
+  box-shadow:2px 2px 10px black;
+ }
+
+#footer-copyright {
+  background-color: #0d47a1;
+  margin-top: 3%;
+}
+
+#iconsRow {
+  margin-top: 3%;
+  margin-left: 45%;
+}
+
+#jobs_widget_link {
+  text-align: center;
+}
+
+
+.page-footer {
+  background-color: #0d47a1;
+}
+
+
+
