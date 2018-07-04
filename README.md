@@ -1,9 +1,8 @@
 # Work-Almost-From-Home
 
-Who doesn't want a few extra minutes each day to do more of what they want to do and less of what they don't? What if you could find a great job, right around the corner from where you live?
+Who doesn't want a few extra minutes each day to do more of what they want to do and less of what they don't? 
 
-The health risks of long work commutes are [well documented by science experts](http://time.com/9912/10-things-your-commute-does-to-your-body/) and movie-makers alike:
-
+The health risks of long work commutes are [well documented by science experts](http://time.com/9912/10-things-your-commute-does-to-your-body/) and [movie-makers alike](https://media.giphy.com/media/MFRQx8WzzPjoI/giphy.gif). What if you could find a great job, right around the corner from where you live?
 
 Using multiple API calls, this application takes user input, finds job postings in an area, and pins the open jobs on a map.
 
