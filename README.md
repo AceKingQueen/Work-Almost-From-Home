@@ -6,4 +6,4 @@ Due to our working arrangement with ZipRecruiter, this version of the app no lon
 
 We made this website in 10 days. We had a working version after 7 days and then had a major Git mishap, where we lost our working version. 
 
-It was our first project built using Git's version control and our group did not have a uniform merging to the master branch strategy. Many lessons were learned. 
+It was our first project built using Git's version control and our group did not have a uniform merging to the master branch strategy. Many lessons were learned... but the root version of this app is on a [teammates's repo](https://github.com/AceKingQueen/GroupProject1-v2)
